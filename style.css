@@ -1,0 +1,83 @@
+
+@keyframes div1{ 
+from{background-color: blue;}
+to{background-color: green;}
+
+}
+
+#div1{ width: 40vw;
+    height: 30vh;
+background-color: blue; 
+animation-name: div1;
+animation-duration: 5s;
+}
+
+@keyframes div2{
+   0%{background-color: blue;}
+  25%{background-color: green;}
+   60%{background-color: yellow;}
+    100%{background-color: red;}
+}
+#div2{
+    width: 70vw;
+    height: 25vh;
+   
+    animation-name: div2;
+    animation-duration:20s;
+    background-color: chocolate;
+}
+@keyframes img5{ from{opacity: 0;}
+to{opacity: 1;}
+
+}
+
+#img5{width: 50vw;
+    height: 50vh;
+    animation-name: img5;
+    animation-duration: 5s;
+}
+ 
+@keyframes img6{ form{filter: blur(0px);}
+to{ filter: blur(3px);}
+}
+#img6{width: 50vw;
+    height: 50vh;
+    animation-name: img6;
+    animation-duration: 5s;
+
+
+}
+@keyframes  fam{ form{filter: sepia(0%);}
+to{ filter: sepia(80%);}
+}
+#fam{width: 50vw;
+    height: 50vh;
+    animation-name: fam;
+    animation-duration: 3s;
+}
+@keyframes fam1{ 
+    0%{background-color: red;margin-left: 0%;}
+    50%{margin-left: 50%;}
+    100%{background-color:pink;margin-left:60%;}
+    }
+    
+    #fam1{ width: 40vw;
+        height: 30vh;
+    animation-name:fam1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    }
+  @keyframes fam2{
+      0%{background-color: red;transform: translateY(0vh);}
+      25%{background-color: green;}
+      50%{background-color: yellow;;}
+      100%{background-color: aqua;transform: translateY(15vh);}
+   }
+   #fam2{width: 20vw; height: 30vh;
+    animation-name: fam2; animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+
